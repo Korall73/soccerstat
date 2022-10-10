@@ -2,15 +2,43 @@ html, body, div, p, img{
     margin: 0;
 }
 
-body{
-    background-color: black;
+*{
+    box-sizing: border-box;
 }
 
-.txt{
-    color: white;
-    font-size: 18px;
+img{
+    width: 10%;
 }
 
-.img_logo{
-    width: 150px;
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 100%;
+    background-color: gray;
+    color: black;
+}
+
+.wrapper_navbar{
+    display: flex !important;
+    place-content: center space-between;
+    width: 100%;
+}
+
+.nav_item_img{
+    width: 20%;
+}
+
+.nav_item{
+ padding: 15px;
+ font-size: 150%;
+}
+
+#main_navbar{
+    display: flex;
+    align-items: center;
 }
